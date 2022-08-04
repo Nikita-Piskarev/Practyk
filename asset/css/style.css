@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.board-box {
+    display: inline-block;
+}
+
+.board-stripes {
+    display: inline-block;
+}
+
+.black,
+.white {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.white {
+    opacity: 0;
+}
